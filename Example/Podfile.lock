@@ -1,0 +1,109 @@
+PODS:
+  - CyweeBleSDK-iOS (1.0.0):
+    - CyweeBleSDK-iOS/adopter (= 1.0.0)
+    - CyweeBleSDK-iOS/category (= 1.0.0)
+    - CyweeBleSDK-iOS/centralManager (= 1.0.0)
+    - CyweeBleSDK-iOS/header (= 1.0.0)
+    - CyweeBleSDK-iOS/interface (= 1.0.0)
+    - CyweeBleSDK-iOS/log (= 1.0.0)
+    - CyweeBleSDK-iOS/task (= 1.0.0)
+    - CyweeBleSDK-iOS/update (= 1.0.0)
+  - CyweeBleSDK-iOS/adopter (1.0.0):
+    - CyweeBleSDK-iOS/header
+  - CyweeBleSDK-iOS/category (1.0.0)
+  - CyweeBleSDK-iOS/centralManager (1.0.0):
+    - CyweeBleSDK-iOS/adopter
+    - CyweeBleSDK-iOS/category
+    - CyweeBleSDK-iOS/header
+    - CyweeBleSDK-iOS/log
+    - CyweeBleSDK-iOS/task/operation
+  - CyweeBleSDK-iOS/header (1.0.0)
+  - CyweeBleSDK-iOS/interface (1.0.0):
+    - CyweeBleSDK-iOS/adopter
+    - CyweeBleSDK-iOS/category
+    - CyweeBleSDK-iOS/centralManager
+    - CyweeBleSDK-iOS/header
+    - CyweeBleSDK-iOS/interface/device (= 1.0.0)
+    - CyweeBleSDK-iOS/interface/model (= 1.0.0)
+    - CyweeBleSDK-iOS/interface/userData (= 1.0.0)
+    - CyweeBleSDK-iOS/log
+    - CyweeBleSDK-iOS/task/operation
+  - CyweeBleSDK-iOS/interface/device (1.0.0):
+    - CyweeBleSDK-iOS/adopter
+    - CyweeBleSDK-iOS/category
+    - CyweeBleSDK-iOS/centralManager
+    - CyweeBleSDK-iOS/header
+    - CyweeBleSDK-iOS/log
+    - CyweeBleSDK-iOS/task/operation
+  - CyweeBleSDK-iOS/interface/model (1.0.0):
+    - CyweeBleSDK-iOS/adopter
+    - CyweeBleSDK-iOS/category
+    - CyweeBleSDK-iOS/centralManager
+    - CyweeBleSDK-iOS/header
+    - CyweeBleSDK-iOS/log
+    - CyweeBleSDK-iOS/task/operation
+  - CyweeBleSDK-iOS/interface/userData (1.0.0):
+    - CyweeBleSDK-iOS/adopter
+    - CyweeBleSDK-iOS/category
+    - CyweeBleSDK-iOS/centralManager
+    - CyweeBleSDK-iOS/header
+    - CyweeBleSDK-iOS/log
+    - CyweeBleSDK-iOS/task/operation
+  - CyweeBleSDK-iOS/log (1.0.0):
+    - CyweeBleSDK-iOS/header
+  - CyweeBleSDK-iOS/task (1.0.0):
+    - CyweeBleSDK-iOS/task/fitpolo701 (= 1.0.0)
+    - CyweeBleSDK-iOS/task/fitpoloCurrent (= 1.0.0)
+    - CyweeBleSDK-iOS/task/operation (= 1.0.0)
+  - CyweeBleSDK-iOS/task/fitpolo701 (1.0.0):
+    - CyweeBleSDK-iOS/adopter
+    - CyweeBleSDK-iOS/header
+    - CyweeBleSDK-iOS/log
+  - CyweeBleSDK-iOS/task/fitpoloCurrent (1.0.0):
+    - CyweeBleSDK-iOS/adopter
+    - CyweeBleSDK-iOS/header
+    - CyweeBleSDK-iOS/log
+  - CyweeBleSDK-iOS/task/operation (1.0.0):
+    - CyweeBleSDK-iOS/header
+    - CyweeBleSDK-iOS/task/fitpolo701
+    - CyweeBleSDK-iOS/task/fitpoloCurrent
+  - CyweeBleSDK-iOS/update (1.0.0):
+    - CyweeBleSDK-iOS/adopter
+    - CyweeBleSDK-iOS/centralManager
+    - CyweeBleSDK-iOS/header
+    - CyweeBleSDK-iOS/interface
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - Toast (4.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - CyweeBleSDK-iOS (from `../`)
+  - Masonry
+  - MBProgressHUD
+  - Toast
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MBProgressHUD
+    - Toast
+    - YYKit
+
+EXTERNAL SOURCES:
+  CyweeBleSDK-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CyweeBleSDK-iOS: 2856536dc576485b698c37542e7da40b35f8b1ba
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 29b022712b8c5face80846fda16695d6e0ab482d
+
+COCOAPODS: 1.15.2
