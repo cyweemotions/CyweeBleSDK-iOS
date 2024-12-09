@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "mk_fitpoloCentralGlobalHeader.h"
 #import "mk_fitpoloAdopter.h"
 #import "CBPeripheral+mk_fitpolo701.h"
 #import "CBPeripheral+mk_fitpoloCurrent.h"
@@ -31,6 +30,7 @@
 #import "MKUserDataInterfaceDefines.h"
 #import "MKUserDataInterfaceHeader.h"
 #import "mk_fitpoloLogManager.h"
+#import "mk_fitpoloCentralGlobalHeader.h"
 #import "mk_fitpolo701Adopter.h"
 #import "mk_fitpolo701Parser.h"
 #import "mk_fitpoloCurrentAdopter.h"

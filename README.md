@@ -22,7 +22,7 @@ pod 'CyweeBleSDK-iOS'
 
 ## Author
 
-Chengang, chengang@mokotechnology.com
+  cyweemotions, Ligin.Zhou@cyweemotion.com
 
 ## License
 
